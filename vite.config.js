@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/kanban-app-react/",
   plugins: [react()],
-  homepage: "/kanban-app-react",
 });
